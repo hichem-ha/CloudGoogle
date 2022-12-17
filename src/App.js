@@ -8,7 +8,7 @@ class App extends Component {
     <div className="App">
         <h1 style={{width:"100%",display:"flex",justifyContent:"center"}}> GOOGLE MAPS WITH REACT </h1>
         <div>
-        <Map google={this.props.google} zoom={14}>
+        <Map google={this.props.google} zoom={15}>
  
  <Marker onClick={this.onMarkerClick}
          name={'Current location'} />
